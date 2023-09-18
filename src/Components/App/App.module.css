@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  width: 100%;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.title {
+  font-size: 52px;
+}
+
+.countContainer {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.button {
+  font-size: 52px;
+  color: blue;
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid blue;
+  background-color: transparent;
+  transition: all .3s;
+}
+.button:hover {
+  background-color: blue;
+  border: none;
+  color: white;
+}
+.description{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 32px;
+  color: blue;
+  font-weight: 600;
+  border: 2px solid blue;
+  border-radius: 10px;
+  min-height: 100px;
+  padding: 30px;
+  background-color: #fff;
+}
+
+.span {
+  font-size: 50px;
+}

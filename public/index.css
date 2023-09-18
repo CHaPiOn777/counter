@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html,
+body {
+  padding: 10px;
+  background-color: rgb(209 240 255);
+  margin: auto;
+  max-width: 1440px;
+}
+
