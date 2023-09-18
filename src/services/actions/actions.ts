@@ -1,6 +1,4 @@
-import { AppDispatch } from "../store";
-import { Dispatch } from "redux";
-import { IncrementActionsTypes, TCountAction } from "../types/incrementTypes";
+import { IncrementActionsTypes} from "../types/incrementTypes";
 
 export const INCREMENT = 'INCREMENT'; 
 export const DECREMENT = 'DECREMENT';

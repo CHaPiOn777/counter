@@ -4,7 +4,7 @@ const initialState: TState = {
   count: 0,
 }
 
-export const incrementReducer = (state = initialState, action: TCountAction) : TState => {
+export const CounterReducer = (state = initialState, action: TCountAction) : TState => {
   switch (action.type) {
     case IncrementActionsTypes.INCREMENT:
       return  {...state, count: state.count + action.count}

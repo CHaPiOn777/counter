@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./App.module.css";
 import { UseTypedSelector } from "../../hooks/UseTypedSelector";
 import { useDispatch } from "react-redux";
@@ -8,7 +7,7 @@ import {
 } from "../../services/actions/actions";
 
 const App = () => {
-  const { count } = UseTypedSelector((state) => state.increment);
+  const { count } = UseTypedSelector((state) => state.counter);
   const dispatch = useDispatch();
 
   return (
