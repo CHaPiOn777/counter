@@ -1,10 +1,10 @@
 import styles from "./App.module.css";
-import { UseTypedSelector } from "../../hooks/UseTypedSelector";
 import { useDispatch } from "react-redux";
 import {
   decrementAction,
   incrementAction,
 } from "../../services/actions/actions";
+import { UseTypedSelector } from "../../hooks/reduxHooks";
 
 const App = () => {
   const { count } = UseTypedSelector((state) => state.counter);

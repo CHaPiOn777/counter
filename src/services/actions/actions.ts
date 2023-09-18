@@ -1,4 +1,4 @@
-import { IncrementActionsTypes} from "../types/incrementTypes";
+import { IncrementActionsTypes} from "../types/counterTypes";
 
 export const INCREMENT = 'INCREMENT'; 
 export const DECREMENT = 'DECREMENT';

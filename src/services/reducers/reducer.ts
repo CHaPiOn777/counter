@@ -1,4 +1,4 @@
-import { IncrementActionsTypes, TCountAction, TState } from "../types/incrementTypes";
+import { IncrementActionsTypes, TCountAction, TState } from "../types/counterTypes";
 
 const initialState: TState = {
   count: 0,

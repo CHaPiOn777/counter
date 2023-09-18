@@ -7,6 +7,6 @@ import {
 import { AppDispatch, RootState } from '../services/store';
   
 // Теперь этот хук знает структуру хранилища
-export const useSelector: TypedUseSelectorHook<RootState> = selectorHook; 
+export const UseTypedSelector: TypedUseSelectorHook<RootState> = selectorHook
 // Хук не даст отправить экшен, который ему не знаком
 export const useDispatch = () => dispatchHook<AppDispatch>(); 

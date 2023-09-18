@@ -1,6 +1,3 @@
-export type TAction = {
-  type: string;
-};
 export type TState = {
   count: number
 };
